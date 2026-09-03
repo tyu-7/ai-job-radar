@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Job Radar"
+  short_description: "Search, score, deduplicate, and track graduate job openings"
+  default_prompt: "Use $ai-job-radar to find and prioritize new graduate roles for my target profile."
