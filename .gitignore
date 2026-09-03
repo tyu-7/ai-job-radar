@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Keep real candidate data and application records private.
+candidate-profile.yaml
+job-tracker.xlsx
+private/
+exports/
+
+# Editor and temporary files.
+*.tmp
+*.bak
+~$*.xlsx
