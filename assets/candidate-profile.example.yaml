@@ -1,0 +1,46 @@
+profile_id: "demo-profile"
+graduation_window:
+  cohort: "20XX graduate"
+  available_from: "20XX-07"
+
+role_tiers:
+  - tier: 1
+    names: ["AI application product", "general product management"]
+    include_keywords: ["user research", "product strategy", "AI application"]
+    exclude_keywords: ["model training only", "data labeling only"]
+  - tier: 2
+    names: ["technology management trainee"]
+    include_keywords: ["product rotation", "business rotation"]
+
+location_order:
+  - rank: 1
+    locations: ["City A"]
+  - rank: 2
+    locations: ["City B", "City C"]
+
+industry_order:
+  - rank: 1
+    industries: ["consumer internet", "AI software"]
+  - rank: 2
+    industries: ["smart devices", "mobility technology"]
+
+hard_constraints:
+  employment_types: ["graduate full-time"]
+  reject_if: ["graduation window mismatch", "role is closed"]
+
+risk_preferences:
+  accepts_early_stage_company: true
+  overtime_tolerance: "moderate"
+  relocation: "consider for high-growth roles"
+
+evidence:
+  - capability: "product discovery"
+    proof: "Completed a fictional course project involving interviews and prototyping"
+  - capability: "cross-functional delivery"
+    proof: "Coordinated a fictional student team to deliver a working demo"
+
+run_settings:
+  freshness_hours: 72
+  max_results: 10
+  timezone: "Region/City"
+  output_language: "Chinese"
